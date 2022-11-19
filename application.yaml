@@ -11,6 +11,7 @@ spec:
   source:
     repoURL: https://github.com/Jhonni1000/Nokia-Kubernetes.git
     targetRevision: HEAD
+    path: workload
   syncPolicy:
     syncOptions:
       - CreateNamespace=true
